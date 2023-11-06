@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+             
+let add=()=>{
+    let num1=parseFloat( document.getElementById('num1').value)
+    let num2=parseFloat( document.getElementById('num2').value)
+    let sum=num1+num2
+    document.getElementById('result').innerHTML=sum
+    console.log(sum);
+
+}
+
+
+        function example(){
+          console.log('inside timeout');
+        }
+
+let result=add(2,3)
+console.log(result);
+
+(function (){console.log('self invoked');}())
+
+    </script>
+</body>
+</html>
+    </script>
+</body>
+</html>

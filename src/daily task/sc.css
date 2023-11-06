@@ -1,0 +1,19 @@
+.main{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 130px;
+
+}
+.box1{
+    width: 230px;
+    height: 250px;
+    background-color: red;
+}
+.box2{
+    width: 230px;
+    height: 250px;
+    background-color: blue;
+    margin-left: auto;
+}

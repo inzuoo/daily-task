@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="" id="num1">
+    <input type="number" name="" id="num2">
+    <button onclick='add()'>add</button>
+    <h1 id="result"></h1>
+    <h2 id="dates"></h2>
+    <script>    
+        
+     
+
+
+// let a=[1,2,3,4,5]
+// let b=[6,7,8,9,10]
+// let c=[...a,...b]
+// console.log(c);
+
+setTimeout((function(){console.log('anonymous');}),1000)
+
+setInterval(date,1000)
+
+date()
+
+function date(){
+    let d=new Date
+    
+    document.getElementById('dates').innerHTML=
+    d.getHours()+'/'+d.getMinutes()+'/'+d.getSeconds()
+}
+
+
+        console.log('running');
+       
+let add=()=>{
+    let num1=parseFloat( document.getElementById('num1').value)
+    let num2=parseFloat( document.getElementById('num2').value)
+    let sum=num1+num2
+    document.getElementById('result').innerHTML=sum
+    console.log(sum);
+
+}
+
+
+        function example(){
+          console.log('inside timeout');
+        }
+
+let result=add(2,3)
+console.log(result);
+
+(function (){console.log('self invoked');}())
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.im{
+    background-image: url("./z.jpg");
+    width:600px;
+    height: 1100px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.card img{
+    margin: 80px;
+    margin-top: 130px;
+    margin-left: 200px;
+    border: 1px;
+    border-radius: 10px;
+    
+}
+
+
+.card2 img{
+
+    margin-top: -50px;
+    margin-left: 290px;
+    border: 1px;
+    border-radius:10px;
+}
+.date h5{
+    word-spacing: 10px;
+}
+.form button{
+    width: 280px;
+    height: 50px;
+    background-color:black;
+    color: white;
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+    gap: 250px;
+}
+
+
+.ff{
+    margin-top: 200px;
+}

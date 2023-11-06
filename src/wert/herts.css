@@ -1,0 +1,16 @@
+.login-container{
+    color: white;
+    background-color:black;
+    border: height=100px,width=150px, solid whitesmoke;
+    
+}
+.login{
+    color:whitesmoke;
+    position: relative;
+    background-color: white;
+    
+}
+.insaf{
+   background-color: blueviolet; color:gold;
+   border: 1px solid black;
+}

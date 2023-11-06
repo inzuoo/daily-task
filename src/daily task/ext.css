@@ -1,0 +1,75 @@
+.lis ul{
+    display: flex;
+    gap: 20px;
+    color: rgba(red, green, blue, alpha);
+    margin-left: 1300px;
+    font-weight: bolder;
+    font-size: 20px;
+
+    margin-top: 30px;
+}
+
+.lis ul:hover{
+    background-color: black;
+    color: white;
+}
+.lis img{
+    width:50px;
+    height: 60px;
+}
+.lis h2{
+    margin-top: 8px;
+    font-size: 40px;
+
+
+}
+.ev{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.sub img{
+    height: 550px;
+    width: 550px;
+}
+.sub{
+    display: flex;
+    gap: 150px;
+    margin: 150px;
+    margin-left: 400px;
+
+
+
+}
+
+.sub{
+    font-size: 50px;
+
+
+
+}
+sub.p{
+    margin-left:-550px;
+    margin-top: 70px;
+}
+.lis pre{
+    font-size: 18px;
+    margin-top: -500px;
+    color: rgb(red, green, blue);
+    margin-left: 240px;
+
+}
+.lis button{
+    background-color: rgb(red, green, blue);
+    color: white;
+    width: 140px;
+    height: 45px;
+    border-radius: 8px;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.lis button:hover{
+    background-color: red;
+    color: white;
+}

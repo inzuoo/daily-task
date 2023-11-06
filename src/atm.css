@@ -1,0 +1,31 @@
+.atm{
+    height: 150px;
+    width: 300px;
+    background-color: black;
+    color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 122px;
+}
+.mastercard{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.box{
+    background-color:white;
+    width: auto;
+    border: 10px solid white ;
+    padding: auto;
+    height: auto;
+    margin-top: 20px;
+    text-align: "center";
+    font-style: normal;
+    letter-spacing: 10px;
+    border-radius: 15px;
+    border-image:;
+    
+    
+}
